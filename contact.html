@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div class="navbar">
+  <nav>
+    <ul class="navs">
+      <li class="navs"><a href="/index.html">ABOUT ME</a></li>
+      <li class="navs"><a href="/contact.html">CONTACT</a></li>
+      <li class="navs"><a href="/register.html">REGISTER</a></li>
+      <li class="navs"><a href="/login.html">LOG IN</a></li>
+    </ul>
+  </nav>
+  </div>
+  <div class="cform">
+    <h2>CONTACT FORM</h2>
+  <form>
+    <label id="clab" for="name">Name</label>
+    <input id="cname" type="text" placeholder="Enter your name" name="name" required>
+    <br>
+    <label id="clab" for="email">Email</label>
+    <input id="cemail" type="email" placeholder="Enter your email" name="email" required>
+    <br>
+    <label id="clab" for="message">Message</label>
+    <textarea id="cmsg" name="message" placeholder="Enter your message" maxlength="200" required></textarea>
+    <br>
+    <label id="clab" for="priority">Priority</label>
+    <select name="priority" id="priority" required>
+      <option value="default">Please select an option</option>
+      <option value="very urgent">Very urgent</option>
+      <option value="urgent">Urgent</option>
+      <option value="not so urgent">Not so urgent</option>
+    </select>
+    <br>
+    <center>
+    <button id="cbutton">SUBMIT</button>
+    </center>
+  </form>
+  </div>
+</body>
+</html> 

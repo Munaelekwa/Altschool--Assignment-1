@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div class="navbar">
+  <nav>
+    <ul class="navs">
+      <li class="navs"><a href="/index.html">ABOUT ME</a></li>
+      <li class="navs"><a href="/contact.html">CONTACT</a></li>
+      <li class="navs"><a href="/register.html">REGISTER</a></li>
+       <li class="navs"><a href="/login.html">LOG IN</a></li>
+    </ul>
+  </nav>
+  </div>
+  <div class="rform">
+    <form>
+      <label id="rlab" for="first name">First Name</label>
+      <input id="rinp" name="first name" type="text" required>
+      <br>
+      <label id="rlab" for="last name">Last Name</label>
+      <input id="rinp" name="last name" type="text" required>
+      <br>
+      <label id="rlab" for="phone">Phone</label>
+      <input id="rinp" name="phone" type="tel" required>
+      <br>
+      <label id="rlab" for="gender">Gender</label>
+      <select id="gen" name="gender" required>
+        <option value="defauilt">Select an option</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+      <br>
+      <label id="rlab" for="country">Country</label>
+      <input id="rinp" name="country" type="text" required>
+      <br>
+      <label id="rlab" for="state/province">State/Province</label>
+      <input id="rinp" name="state/province" type="text" required>
+      <br>
+      <label id="rlab" for="username">Username</label>
+      <input id="rinp" name="username" type="text" minlength="8" maxlength="20" required>
+      <br>
+      <label id="rlab" for="password">Password</label>
+      <input id="rinp" name="password" type="password" minlength="8" maxlength="20" required>
+      <br>
+      <label id="rlab" for="confirm password">Confirm password</label>
+      <input id="rinp" name="confirm password" type="password" minlength="8" maxlength="20" required>
+      <center>
+        <button id="rbutton">REGISTER</button>
+      </center>
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,221 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url(https://media.istockphoto.com/photos/black-wall-as-a-background-for-design-and-advertising-picture-id1318700745?b=1&k=20&m=1318700745&s=170667a&w=0&h=QSt8HxaQvQJuDiZE7esnPhGV6tJpYB8-x_yZvVrJgyw=) no-repeat center fixed;
+  background-size: cover;
+}
+.navbar {
+  display: flex;
+  margin-left: 47%;
+  padding: 20px 0;
+  align-items: center;
+  
+}
+
+nav, .navs{
+  display: flex;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+.navs, nav, a{
+  text-decoration: none;
+  color: floralwhite;
+  font-weight: bold;
+}
+
+nav, .navs, a:hover{
+  color: #c61527;
+}
+h1{
+  font-family: helvetica neue;
+}
+span{
+  color: indianred;
+}
+.image{
+  float: right;
+  margin-right: 40px;
+  margin-top: 70px;
+  
+}
+
+.profile, .info{
+  color: floralwhite;
+  margin-left: 30px;
+}
+.info{
+  line-height: 40px;
+  text-align: left;
+  margin-top: 60px;
+}
+.profile{
+  text-align: center;
+  margin-top: 50px;
+}
+
+#clab, h2{
+  color:indianred;
+  
+}
+
+
+#clab{
+  display: inline-block;
+  width: 140px;
+  margin: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+  
+.cform{
+  width: 400px;
+  margin: 0 auto;
+  border-style: solid;
+  border-width: 5px; 
+  padding: 20px 20px;
+  border-radius: 10px;
+  border-color: indianred;
+}
+#cname, #cemail, #priority, textarea {
+  padding: 4px 5px;
+  margin: 5px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 2px solid white;
+  width: 380px;
+}
+#cmsg{
+  height: 200px;
+}
+
+h2{
+  text-align: center;
+}
+
+#cbutton{
+  margin-top: 8%;
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 18px;
+  background-color: indianred;
+}
+#cbutton:hover{
+  background-color: grey;
+  
+}
+#rlab{
+  display: inline-block;
+  width: 140px;
+  margin: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: indianred;
+}
+#rinp, #gen{
+  padding: 4px 5px;
+  margin: 5px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 2px solid white;
+  width: 380px;
+}
+.rform{
+  width: 400px;
+  margin: 0 auto;
+  border-style: solid;
+  border-width: 5px; 
+  padding: 20px 20px;
+  border-radius: 10px;
+  border-color: indianred;
+}
+#rbutton{
+  margin-top: 8%;
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 18px;
+  background-color: indianred;
+}
+#rbutton:hover{
+  background-color: grey;
+}
+#flab{
+  display: inline-block;
+  width: 140px;
+  margin: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: indianred;
+}
+#finp{
+  padding: 4px 5px;
+  margin: 5px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 2px solid white;
+  width: 300px;
+}
+.lform{
+  width: 320px;
+  margin: 0 auto;
+  border-style: solid;
+  border-width: 5px; 
+  padding: 20px 20px;
+  border-radius: 10px;
+  border-color: indianred;
+}
+#lbutton{
+  margin-top: 7%;
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  font-size: 18px;
+  background-color: indianred;
+}
+#lbutton:hover{
+  background-color: grey;
+}
+
+.calc{
+  width: 350px;
+  margin: 0 auto;
+  border: solid white 2px;
+  margin-top: 15%;
+  height: 300px;
+  
+}
+table{
+  width: 100%;
+  height: 100%;
+  border: solid white 2px;
+}
+
+input[type="button"]{
+  background-color: seagreen;
+  font-weight: bold;
+  border: solid white 2px;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+#result{
+  width: 330px;
+  height: 100%;
+  border: solid seagreen 2px;
+}
+  #calc{
+    margin-bottom: 3px;
+    background-color: indianred;
+    color: white;
+}
+#calc:hover{
+  background-color: seagreen;
+}
+
+input[type="button"]:hover{
+  background-color: indianred;
+}
